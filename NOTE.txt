@@ -1,0 +1,1 @@
+TXP-Root is a simplistic shell scirpt that uses ADB to attempt an SU install, giving root level access to Adroid users. Use with CAUTION. Very dangerous. Not tested in ICS or SnapDragon CPUs.
