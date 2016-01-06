@@ -1,9 +1,7 @@
 adb devices
 adb shell
 echo 'checking for your device...'
-exit
-adb reboot
-adb devices
+adb root
 adb shell mount -o remount,rw /system
 echo 'remounting system...'
 echo 'installing root factors...'
@@ -20,4 +18,5 @@ adb reboot
 echo 'completing root install...'
 adb install /assets/applications/Superuser.apk
 adb install /assets/applications/BusyBox X.apk
+adb reboot
 exit
