@@ -1,9 +1,7 @@
 adb devices
 adb shell
 echo 'checking for your device...'
-exit
-adb reboot
-adb devices
+adb root
 adb shell mount -o remount,rw /system
 echo 'remounting system...'
 echo 'installing root factors...'
